@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../Learning/belajar-html-dasar"
+		},
+		{
+			"path": "../../../vsCode/learning/.vscode"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"new": "cpp",
+			"func_interpolation.h": "c"
+		}
+	}
+}

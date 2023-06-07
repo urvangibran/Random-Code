@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<!-- 
+    Tag atble, digunakan untuk membuat tabel
+    Tag tr untuk membuat row/baris
+    Tag th untuk membuat kolom header table
+    Tag td untuk membuat kolom isi table
+    Tag caption untuk keterangan table
+    Tag thead untuk grup header table
+    Tag tbody untuk grup isi table
+    Tag tfoot untuk grup footer table
+    colgroup - memberikan kelompok warna 
+ -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tag</title>
+</head>
+<body>
+    <h1 style="color: blue">Belajar Table Tag</h1>
+    
+    <table style="border: 1px solid black">
+        <colgroup>
+            <col span="2" style="background-color: blanchedalmond;">
+            <col style="background-color: red;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="2">Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Urvan</td>
+                <td>Gibran</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>Nugroho</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td rowspan="2">TOTAL</td>
+                <td>Total</td>
+                <td>170</td>
+            </tr>
+            <tr>
+                <td>Rata Rata</td>
+                <td>85</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+
+</body>
+</html>

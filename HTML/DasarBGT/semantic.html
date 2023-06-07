@@ -1,0 +1,101 @@
+<!-- 
+    Tag article, untuk konten artikel
+    Tag aside, untuk bagian disamping konten, misal sidebar 
+    Tag figure, untuk konten ilustrasi, diagram, foto, dan lain-lain
+    Tag figurecaption, untuk keterangan tag figure
+    Tag footer, untuk bagian footer dokumen
+    Tag header, untuk bagian header dokumen
+    Tag main, untuk konten utama dokumen
+    Tag mark, untuk bagian yang ditandai atau highlight
+    Tag nav, untuk bagian navigasi link
+    Tag section, untuk section di dokumen
+    Tag details, untuk bagian yang lebih detail yang bisa pengguna lihat 
+    Tag summary, untuk heading untuk tag details
+    Tag time, untuk konten waktu/tanggal 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic</title>
+
+    <style>
+        header
+        {
+            background-color: gray;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        article {
+            padding: 20px;
+            width: 100%;
+            background-color: #f1f1f1;
+        }
+        footer
+        {
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        nav
+        {
+            background-color: yellow;
+            padding: 10px;
+        }
+        nav ul
+        {
+            list-style-type: none;
+            overflow: hidden;
+        }
+        nav li
+        {
+            float: left;
+        }
+        nav li a
+        {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        nav li a:hover
+        {
+            background-color: orange;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Belajar Semantic</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Beranda</a></li>
+            <li><a href="">Artikel</a></li>
+            <li><a href="">Kontak Person</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h1>Artikel 1</h1>
+            <p>Isi belajar Artikel</p>
+        </article>
+        <article>
+            <h1>Belajar Artikel 2</h1>
+            <p>ISI AJAA</p>
+        </article>
+    </section>
+    <footer>
+        <p>Belajar di Programmer Zaman Now <time datetime="2023">2023</time></p>
+    </footer>
+</body>
+</html>
